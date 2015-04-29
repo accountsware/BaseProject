@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Angular.Common;
+using Angular.Data.IIdentityManager;
 using Angular.Data.IRepository;
 using Angular.Data.IRepository.Base;
 using Angular.Data.IServices;

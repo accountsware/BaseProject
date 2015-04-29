@@ -19,7 +19,7 @@ namespace Angular.Data
 
         public DataContext()
 
-            : base("data source=.;initial catalog=Angular;integrated security=True")
+            : base("data source=.;initial catalog=Baseproject;integrated security=True")
 
         {
         }

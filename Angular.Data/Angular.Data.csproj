@@ -52,6 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext.cs" />
+    <Compile Include="IRepository\Base\DbContextScopeOption.cs" />
+    <Compile Include="IRepository\Base\IAmbientDbContextLocator.cs" />
+    <Compile Include="IRepository\Base\IDbContextCollection.cs" />
+    <Compile Include="IRepository\Base\IDbContextFactory.cs" />
+    <Compile Include="IRepository\Base\IDbContextReadOnlyScope.cs" />
+    <Compile Include="IRepository\Base\IDbContextScope.cs" />
+    <Compile Include="IRepository\Base\IDbContextScopeFactory.cs" />
     <Compile Include="IRepository\Base\IGenericRepository.cs" />
     <Compile Include="IRepository\Base\IUnitOfWork.cs" />
     <Compile Include="IRepository\IPersonRepository.cs" />
@@ -75,6 +82,12 @@
     <Compile Include="Modals\UserLogin.cs" />
     <Compile Include="Modals\UserRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\base\AmbientContextSuppressor.cs" />
+    <Compile Include="Repository\base\AmbientDbContextLocator.cs" />
+    <Compile Include="Repository\base\DbContextCollection.cs" />
+    <Compile Include="Repository\base\DbContextReadOnlyScope.cs" />
+    <Compile Include="Repository\base\DbContextScope.cs" />
+    <Compile Include="Repository\base\DbContextScopeFactory.cs" />
     <Compile Include="Repository\base\GenericRepository.cs" />
     <Compile Include="Repository\base\UnitOfWork.cs" />
     <Compile Include="Repository\PersonRepository.cs" />
